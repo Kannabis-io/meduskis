@@ -33,7 +33,7 @@ export const isInviteUserData = (data: any): data is InviteUserEmailProps =>
  */
 export const InviteUserEmail = ({
   inviteLink,
-  preview = `You've been invited to Medusa!`,
+  preview = `You've been invited to KANNABIS!`,
 }: InviteUserEmailProps) => {
   return (
     <Base preview={preview}>
@@ -46,7 +46,7 @@ export const InviteUserEmail = ({
       </Section>
       <Section className="text-center">
         <Text className="text-black text-[14px] leading-[24px]">
-          You&apos;ve been invited to be an administrator on <strong>Medusa</strong>.
+          You&apos;ve been invited to be an administrator on <strong>KANNABIS</strong>.
         </Text>
         <Section className="mt-4 mb-[32px]">
           <Button
